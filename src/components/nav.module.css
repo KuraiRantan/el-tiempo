@@ -1,0 +1,48 @@
+.nav-claro {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.nav-oscuro {
+    background-color: rgba(255, 255, 255, 0.4);
+    
+}
+
+.nav-claro,
+.nav-oscuro {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-around;
+    position: sticky;
+    top: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    max-height: 20%;
+}
+
+
+h1 {
+    margin: 0;
+    color: #0090FF;
+}
+
+.btn-mode:active {
+    border-color: #0090FF;
+}
+
+@media screen and (max-width: 610px) {
+    .nav-claro,
+    .nav-oscuro {
+        max-height: 26%;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .nav-claro,
+    .nav-oscuro {
+        max-height: 30%;
+    }
+}

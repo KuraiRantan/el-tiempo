@@ -1,0 +1,40 @@
+.main-claro {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.main-oscuro {
+    background-color: rgba(225, 225, 225, 0.4);
+    
+}
+
+.main-claro,
+.main-oscuro {
+    max-height: 70%;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+    overflow-y: auto;
+}
+
+.main___scroll {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+@media screen and (max-width: 610px) {
+    .main-claro,
+    .main-oscuro {
+        max-height: 60%;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .main-claro,
+    .main-oscuro {
+        max-height: 50%;
+    }
+}

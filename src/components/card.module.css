@@ -1,0 +1,36 @@
+.card-claro {
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.card-oscuro {
+    background-color: rgba(225, 225, 225, 0.55)
+}
+
+.card-claro,
+.card-oscuro {
+    color: inherit;
+    border: 1px solid #0090FF;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.btn-close {
+    background-color: red;
+    border: none;
+    margin-left: 85%;
+    margin-top: 2%;
+}
+
+.img-card {
+    width: 16px;
+    height: 11px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.img-weather {
+    background-color: rgb(0, 132, 255);
+    width: 100px;
+    border-radius: 100%;
+}
